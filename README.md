@@ -13,6 +13,7 @@ Predictive Buffer Management: Using ML to forecast when to increase safety stock
 The core engine is built in C++ for maximum performance and memory efficiency. It utilizes a custom hashing algorithm to ensure that wafer data cannot be tampered with as it moves through the supply tiers.
 
 Key Features: Custom WaferBatch objects, DJB2 hashing for data integrity, and linked-node architecture for stage tracking.
+As proprietary foundry supply chain data is highly confidential, this project utilizes a custom Python-based Monte Carlo simulation (data_generator.py) to generate 5,000+ rows of synthetic data, accurately modeling real-world variables like seasonality, tech trend multipliers, and geopolitical logistics risks.
 
 2. Supply Demand Predictor (Python/XGBoost)
 A machine learning module that analyzes demand patterns to predict factory load.
