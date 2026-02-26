@@ -1,0 +1,12 @@
+# C++ compiled files
+*.exe
+*.o
+*.out
+silicon_trace
+
+# Python caches
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
